@@ -1,8 +1,12 @@
+<div align="center">
+
 # Simple Python Scripts
 
 Welcome to the Simple Python Scripts repository! 
 This is a collection of various scripts and programs written in Python, ranging from simple games to helper scripts, math solvers, and more. 
 Anyone is welcome to contribute by adding new scripts or improving existing ones.
+
+</div>
 
 ## Purpose
 
