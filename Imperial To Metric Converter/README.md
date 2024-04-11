@@ -1,4 +1,8 @@
-**Imperial Metric Converter**
+<div align="center">
+
+# Imperial Metric Converter
+
+</div>
 
 This script is a simple Imperial-Metric converter implemented in Python. It provides functionality to convert between various units of distance, including miles to kilometers, kilometers to miles, feet to meters, and meters to feet.
 
