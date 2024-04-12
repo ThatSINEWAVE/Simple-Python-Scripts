@@ -13,6 +13,12 @@ Anyone is welcome to contribute by adding new scripts or improving existing ones
 The purpose of this repository is to provide a platform for Python enthusiasts and beginners to showcase their programming skills, collaborate with others, and build a diverse collection of useful scripts.
 Whether you're a beginner looking to practice your coding skills or an experienced developer with a handy tool to share, this repository is open to all.
 
+<div align="center">
+
+## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+
+</div>
+
 ## How It Works
 
 Contributing to Simple Python Scripts is easy! Simply fork the repository, add your script in a new folder named after your program, and then edit the README.md file to include your program in the Index Section. 
