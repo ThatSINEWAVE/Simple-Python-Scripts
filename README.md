@@ -30,6 +30,12 @@ I accept all kinds of Python scripts, from simple one-liners to complex programs
 Whether it's a game, a utility tool, a mathematical solver, or anything else, feel free to submit it. 
 I encourage creativity and diversity in the scripts contributed to this repository.
 
+<div align="center">
+
+# [Join my discord server](https://discord.gg/2nHHHBWNDw)
+
+</div>
+
 ## FAQ
 
 ### Why Did I Create This Repo?
