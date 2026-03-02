@@ -23,7 +23,9 @@ Example with a left shift of 3 (key=-3):
 
 ### How to Use:
 1. Run the script in a Python environment.
-2. Enter a string to cipher or decipher when prompted.
-3. Enter the key to cipher/decipher with (read above for what a _key_ is).
-4. The script will then print the result.
-5. to switch between `encode` and `decode`, enter a front slash (`/`).
+2. Choose whether to encrypt or decrypt.
+3. Enter a string to cipher or decipher when prompted.
+4. Enter the key to cipher/decipher with (read above for what a _key_ is).
+5. Enter a front slash at any time (`/`) to return to the menu.
+6. The script will then print the result.
+7. Select `3) Quit` when prompted to quit.
