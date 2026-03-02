@@ -138,14 +138,23 @@ if __name__ == "__main__":
 
             case '1':
                 while True:
-                    txt = input("\nEnter text ('/' to return to menu): ")
+                    switching = False
+                    
+                    txt = input(
+                        "\nEnter text to encrypt ('/' to return to menu): "
+                    )
                     if txt.strip() == '/':
                         break
+                        
                     while True:
+                        ky = input("Enter key ('/' to return to menu): ")
+                        
+                        if ky.strip() == '/':
+                            switching = True
+                            break
+                            
                         try:
-                            ky = int(
-                                input("Enter key ('/' to return to menu): ")
-                            )
+                            ky = int(ky)
                         except ValueError:
                             print(
                                 "\nInvalid choice. Please enter an integer.\n"
@@ -153,17 +162,32 @@ if __name__ == "__main__":
                             sleep(0.5)
                         else:
                             break
+                            
+                    if switching:
+                        break
+                        
                     print(f"\nEncrypted text:")
                     print(cipher(txt, ky))
 
             case '2':
                 while True:
-                    txt = input("\nEnter text ('/' to return to menu): ")
+                    switching = False
+                    
+                    txt = input(
+                        "\nEnter text to decrypt ('/' to return to menu): "
+                    )
                     if txt.strip() == '/':
                         break
+                    
                     while True:
+                        ky = input("Enter key ('/' to return to menu): ")
+                        
+                        if ky.strip() == '/':
+                            switching = True
+                            break
+                        
                         try:
-                            ky = int(input("Enter key: "))
+                            ky = int(ky)
                         except ValueError:
                             print(
                                 "\nInvalid choice. Please enter an integer.\n"
@@ -171,6 +195,10 @@ if __name__ == "__main__":
                             sleep(0.5)
                         else:
                             break
+                    
+                    if switching:
+                        break
+                    
                     print(f"\nDecrypted text:")
                     print(decipher(txt, ky))
 
