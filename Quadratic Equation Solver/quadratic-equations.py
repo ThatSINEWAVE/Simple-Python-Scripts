@@ -18,6 +18,8 @@ def main():
     a = float(input("Enter the coefficient a: "))
     b = float(input("Enter the coefficient b: "))
     c = float(input("Enter the coefficient c: "))
+    map = f"{a}x^2 + {b}x + {c} = 0"
+    print(map)
     roots = solve_quadratic(a, b, c)
     print("Roots:", roots)
 
