@@ -16,13 +16,15 @@ def solve_quadratic(a, b, c):
         if discriminant > 0:
             root1 = (-b + math.sqrt(discriminant)) / (2*a)
             root2 = (-b - math.sqrt(discriminant)) / (2*a)
-            return f"Roots: {root1, root2}"
+            return f"Roots: {root1} and {root2}"
         elif discriminant == 0:
             root = -b / (2*a)
             return f"Roots: {root}"
         else:
             positive_number = abs(discriminant)
-            complex_form = f"({-b}{plus_minus}{math.sqrt(positive_number)}i)/{2*a}"
+            real_part = round(-b/(2*a), 3)
+            imag_part = round(math.sqrt(positive_number)/(2*a), 3)
+            complex_form = f"{real_part}{plus_minus}{imag_part}i"
             return f"No real roots\n{complex_form}"
 
 def main():
