@@ -62,3 +62,19 @@ Feel free to get creative and experiment with different ideas!
 3. **Add Your Program File**: Upload your Python script file into the folder you created.
 4. **Edit README.md**: Update the README.md file to include your program in the Index Section. Provide a brief description of your script.
 5. **Start the Repo**: Submit a pull request with your changes, and once approved, your script will be added to the repository.
+
+### Mood Logger 
+A Simple tool to track and log your daily mood.
+
+**Features:**
+- Log mod score (1 to 5) with date
+- View recent history
+- View statistical report including:
+ - Average mood score
+ - best and worst days
+ - Score distribution 
+ - longest logging streak
+
+ **How to run:**
+ ```bash
+ python mood.py
