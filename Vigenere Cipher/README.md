@@ -16,9 +16,14 @@ This is a simple python script to encode/decode vigenere ciphers
 ```
 python vigenere.py
 ```
-you should get a prompt asking whether you want to encode a string or decode a string:
+you should get a prompt asking whether you want to use the full ascii character set (' ' to '~') or the standard 26 letter alphabet:
 ```
-encode (e)/decode (d) >
+ascii (default)/standard (26 letter) > ascii
+```
+
+you should then get a prompt asking whether you want to encode a string or decode a string:
+```
+encode (e)/decode (d) > e
 ```
 then enter your string:
 ```
