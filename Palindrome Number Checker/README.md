@@ -6,6 +6,7 @@
 
 ### Description:
 This Python script checks if a given number is a palindrome.
+A palindrome number reads the same forward and backward.
 
 ### How to Use:
 1. Run the script in a Python environment.
