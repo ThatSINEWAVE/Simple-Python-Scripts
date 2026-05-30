@@ -6,6 +6,7 @@
 
 ### Description:
 This Python script checks if a given number is a prime number.
+A prime number is a number which is divisible by 1 and itself.
 
 ### How to Use:
 1. Run the script in a Python environment.
