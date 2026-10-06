@@ -78,3 +78,19 @@ A Simple tool to track and log your daily mood.
  **How to run:**
  ```bash
  python mood.py
+ ```
+
+### Simple Port Scanner
+A beginner-friendly TCP port scanner that checks whether common ports on a target host are open.
+
+**Features:**
+- Scan a single port, a list of ports, or a range (e.g. `80,443` or `1-100`)
+- Defaults to a list of common ports (SSH, HTTP, HTTPS, MySQL, etc.)
+- Configurable connection timeout
+- Works with IP addresses or domain names
+
+**How to run:**
+```bash
+python port_scanner.py 8.8.8.8 53,443
+python port_scanner.py 192.168.1.1 1-100 0.5
+```
