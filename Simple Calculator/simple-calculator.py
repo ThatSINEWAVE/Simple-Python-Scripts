@@ -13,6 +13,8 @@ def divide(x, y):
     return x / y
 
 def power(x, y):
+    if x == 0 and y < 0:
+        return "Cannot raise 0 to a negative power!" 
     return x ** y
 
 def modulo(x, y):
